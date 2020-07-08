@@ -19,10 +19,10 @@ Spotify also provides a few useful Javascript files to get the localhost server 
 written in Javascript before. The files are very well documented, and provide insight into how to access user data and modify playlists.
 
 
-### Spotipy API Reference
+## Spotipy API Reference
 
 This is the link to the Spotipy API: https://spotipy.readthedocs.io/en/2.13.0/
 
 
-#### Brief Explination of the API Interaction
+### Brief Explination of the API Interaction
 
