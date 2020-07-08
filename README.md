@@ -23,3 +23,6 @@ written in Javascript before. The files are very well documented, and provide in
 
 This is the link to the Spotipy API: https://spotipy.readthedocs.io/en/2.13.0/
 
+
+#### Brief Explination of the API Interaction
+
