@@ -11,7 +11,9 @@ playlist_id = '********************'
 scope = 'playlist-modify'
 token = util.prompt_for_user_token(username, scope, CLIENT_ID, CLIENT_SECRET, redirect_uri = "http://localhost:8888")
 
-
+# Since the Spotipy API recommends only using Excel files with a maximum of 100 rows, I had to separate each batch of URIs
+# into different spreadsheets, then load them in individually. I realize this process can be improved, and am attempting
+# to optimize it. 
 tracks = ["6C4LXC9UFH1IKiHYOp0BiJ",
 "1VuBmEauSZywQVtqbxNqka",
 "4uOKFydzAejjSFqYbv1XPt",
