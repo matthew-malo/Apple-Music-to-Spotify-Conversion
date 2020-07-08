@@ -8,6 +8,7 @@ Spotify's API, and the open source community that they promote, and resulted in 
 and offered to friends if they were interested in switching music services as well. 
 
 
+
 ## Getting Started
 
 The project required a bit of research into both the Spotify API and the Spotipy API that I used in conjunction.
@@ -17,4 +18,8 @@ additional studying to fully understand how to optimally implement them in my co
 Spotify also provides a few useful Javascript files to get the localhost server up and running, which was essential as I had never 
 written in Javascript before. The files are very well documented, and provide insight into how to access user data and modify playlists.
 
+
+### Spotipy API Reference
+
+This is the link to the Spotipy API: https://spotipy.readthedocs.io/en/2.13.0/
 
