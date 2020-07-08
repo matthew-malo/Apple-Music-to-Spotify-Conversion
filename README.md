@@ -26,3 +26,9 @@ This is the link to the Spotipy API: https://spotipy.readthedocs.io/en/2.13.0/
 
 ### Brief Explination of the API Interaction
 
+Spotify adds songs to playlists via each individual song's URI (uniform resource indicator), which can be accessed via the share menu of any
+track, album, or artist profile on Spotify. In order to obtain this URI, Spotipy has an integrated search feature, which returns any and all 
+information about the track that is being searched for. This required quite a bit of navigating, which I described more thoroughly in the 
+comments on the ObtainURIs python file.
+
+Once obtained, the URIs can be fed to another Spotipy function, which adds each track to a specified playlist on the user's account
