@@ -93,6 +93,6 @@ if token:
     sp = spotipy.Spotify(auth=token)
     sp.trace = False
     for x in tracks:
-        sp.user_playlist_add_tracks(username, playlist_id, tracks, position=None)
+        sp.user_playlist_add_tracks(username, playlist_id, x, position=None)
 
 print("complete")
